@@ -1,0 +1,45 @@
+.who-are-we{
+    margin-top: 50px;
+    margin-left: 50px;
+    & h2{
+        margin-left: 70px;
+        font-size: 30px;
+      color: green;
+    }
+}
+
+.who-we-are-para{
+  color: gray;
+  font-size:18px;
+  padding: 10px 70px;
+  margin-top: 10px;
+  word-spacing:10px ;
+   
+}
+.certifications{
+  margin-top: 20px;
+}
+.certificates{
+ display: flex;
+ gap: 70px;
+overflow-x: auto;
+padding: 30px;
+  & img{
+    height: 500px;
+   aspect-ratio: 1;
+  }
+}
+.scrollbox{
+  max-width: 1200px;
+  overflow-x: hidden;
+  margin: 20px 200px;
+  border: 12px solid black;
+  border-radius: 10rem;
+  -webkit-border-radius: 10rem;
+  -moz-border-radius: 10rem;
+  -ms-border-radius: 10rem;
+  -o-border-radius: 10rem;
+}
+.certificates::-webkit-scrollbar{
+  display: none;
+}

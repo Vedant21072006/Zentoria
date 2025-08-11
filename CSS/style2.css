@@ -1,0 +1,88 @@
+
+section{
+    background-color: gray;
+    height: 40vh;
+}
+
+.contactDiv{
+    display: flex;
+
+   background-color: rgb(233, 228, 222);
+    gap: 30px;
+    padding: 50px;
+    margin: 50px 100px 0 220px;
+    height: 400px;
+    width: 850px;
+
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactheading{
+    color: green;
+    font-size: 30px;
+}
+.contactpara{
+    font-size: 12px;
+}
+
+.details{
+
+padding: 10px;
+display: flex;
+flex-direction: column;
+& p{
+    font-size: 13px;
+    
+}
+}
+.name{
+    display: flex;
+}
+.contactname{
+& input{
+    height: 30px;
+    width: 200px;
+}
+
+}
+.contactemailbox{
+    margin-top: 20px;
+    & input{
+          height: 30px;
+          width: 400px;
+          
+        
+    }
+}
+.contacttext{
+    margin-top: 20px;
+
+}
+textarea{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    background-color: transparent;
+
+}
+button{
+padding: 10px;
+color: azure;
+margin-top: 10px;
+border: none;
+width: 200px;
+  background-image:linear-gradient(to right,green,rgb(47, 176, 47),rgb(86, 203, 86),rgb(124, 221, 124));
+}
+button:hover{
+      background-image:linear-gradient(to left,green,rgb(47, 176, 47),rgb(86, 203, 86),rgb(124, 221, 124));
+}
+input{
+    padding: 10px;
+    background-color: transparent;
+    color: black;
+
+    
+}
